@@ -1,4 +1,9 @@
+
 lab50:
+  files:
+    - !exclude "*"
+    - !include "*.py"
+    - !require cash.py
 
 submit50:
   files: &submit50_files
